@@ -31,8 +31,8 @@ import org.hibernate.criterion.Restrictions;
  *
  * @author Manujaya
  */
-@WebServlet(name = "LoadHomeData", urlPatterns = {"/LoadHomeData"})
-public class LoadHomeData extends HttpServlet {
+@WebServlet(name = "SmartChatLoadHomeData", urlPatterns = {"/SmartChatLoadHomeData"})
+public class SmartChatLoadHomeData extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
